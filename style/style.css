@@ -10,7 +10,47 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-.odil{}
+.Odil__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.odil__logo img{
+    width: 80px;
+    display: block;
+}
+.odil-nav__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.odil-nav__link{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #150101;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.odil-nav__link:hover{
+    color: #D23166;
+}
+.btn{
+    padding: 14px 50px;
+    background-color: #D23166;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FAFAFA;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: max-content;
+}
 
 
 
