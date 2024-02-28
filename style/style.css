@@ -41,4 +41,8 @@
 
 
 
-.sardor{}
+.sardor{
+    display: flex;
+    flex-direction: column
+    
+}
